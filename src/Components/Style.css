@@ -1,0 +1,522 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: popp;
+}
+.container{
+height: 100vh;
+display: flex;
+justify-content: center;
+
+}
+.login_parent{
+width: 50%;
+border: 1px solid grey;
+border-radius: 0.5rem;
+margin: auto;
+height: 65vh;
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+input[type="text"]{
+border-radius: 0.5rem ;
+width: 35%;
+padding: 10px 8px;
+align-items: center;
+text-align: center;
+color:  #111;
+font-weight: 600;
+font-size: large;
+border: 1px solid white ;
+}
+input:focus {
+    background-color: lightblue;
+  }
+input[type="password"]{
+    border-radius: 0.5rem ;
+    width: 35%;
+    padding: 10px 8px;
+    align-items: center;
+    text-align: center;
+    color: #111;
+    font-weight: 600;
+    font-size: large;
+    border: 1px solid white ;
+    }
+.header{
+    font-size: 30px;
+    font-weight: .600;
+    color: white;
+}
+label{
+    font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+    
+}
+.submit_btn{
+    padding: 8px 20px;
+    border: 1px solid grey;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+  
+    
+}
+.queries{
+    position: relative;
+    left: 180px;
+    font-weight: 600;
+    font-size: 18px;
+    /* background-color: blue; */
+    color: black;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+input:focus {
+    background-color: lightblue;
+  }
+
+.forgotpwd{
+  position: relative;  
+  margin-right: 150px;
+  font-weight: 600;
+  font-size: 18px;
+  /* background-color: blue; */
+  color: black;
+  font-weight: 600;
+
+}
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: url(https://media.istockphoto.com/id/1683786187/photo/concept-of-cyber-security-information-security-and-encryption-secure-access-to-users-personal.jpg?s=2048x2048&w=is&k=20&c=Kt-wtB1CMBgW3Bfv5WZXmh9Gyx3RqruOiPu-xsjiO70=);
+}
+
+/* dashboardcss */
+.dashboard_links{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  
+}
+.dashboard_link1{
+  color: white;
+border: 2px solid grey;
+border-radius: 0.5rem;
+padding: 10px 25px;
+font-weight: 600;
+font-size: 24px;
+background-color: red;
+}
+.dashboard_link1:hover{
+  background-color: transparent;
+  color: red;
+  transform: scale(1.2);
+}
+.dashboard_owner{
+  background-color: white;
+}
+
+/* mobilescss */
+/* mobilescss */
+/* mobilescss */
+/* mobilescss */
+/* mobilescss */
+/* mobilescss */
+/* mobilescss */
+
+
+
+.mobiles_owner{
+
+  background-color: white;
+  padding: 0 10px;
+
+}
+
+.mobiles_header{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+ 
+}
+.mobile_container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background: transparent;
+gap: 5rem;
+}
+.image_one,.image_two{
+  margin-bottom: 35px;
+  border: 2px solid grey;
+  padding: 10px 20px;
+
+}
+
+.image_one:hover{
+  transform: scale(1.1);
+  border-radius: 0.6rem;
+}
+.image_two:hover{
+  transform: scale(1.2);
+  border-radius: 0.6rem;
+}
+h5{
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.cart{
+padding: 5px 12px;
+border-radius: 0.5rem;
+background-color: blue;
+color: white;
+font-weight: 600;
+text-align: center;
+
+}
+
+.cart:hover{
+  background-color: transparent;
+  color: blue;
+}
+
+.cart_diff:hover{
+  background-color: transparent;
+  color: blue;
+}
+.buy:hover{
+  background-color: transparent;
+  color: blue;
+}
+
+.buy_diff:hover{
+  background-color: transparent;
+  color: blue;
+}
+
+
+
+
+.buy{
+  padding: 5px 12px;
+  border-radius: 0.5rem;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  left: 20px;
+}
+.cart_diff{
+  padding: 5px 12px;
+  border-radius: 0.5rem;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  left: 25px;
+  
+  }
+  .buy_diff{
+    padding: 5px 12px;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    left: 55px;
+  }
+ .link_dashboard{
+  color: white;
+  background-color: red;
+border-radius: 0.5rem;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  position: relative;
+  top: 10px;
+ left: 78rem;
+ font-weight: 600;
+ font-size: 20px;
+ }
+ .link_dashboard:hover{
+  background:transparent;
+  color: red;
+ }
+
+
+
+
+/* laptopcss */
+/* laptopcss */
+/* laptopcss */
+/* laptopcss */
+/* laptopcss */
+
+.laptop_owner{
+
+  background-color: white;
+  padding: 0 10px;
+
+}
+
+.laptop_header{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+ 
+}
+.laptop_container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background: transparent;
+gap: 2rem;
+}
+.image_one,.image_two{
+  margin-bottom: 35px;
+  border: 2px solid grey;
+  padding: 10px 20px;
+
+}
+
+.image_one:hover{
+  transform: scale(1.1);
+}
+.image_two:hover{
+  transform: scale(1.1);
+}
+h5{
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.laptop_cart{
+padding: 5px 12px;
+border-radius: 0.5rem;
+background-color: blue;
+color: white;
+font-weight: 600;
+text-align: center;
+position: relative;
+left: 60px;
+
+}
+.laptop_buy{
+  padding: 5px 12px;
+  border-radius: 0.5rem;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  left: 120px;
+}
+
+ .link_dashboard{
+  color: white;
+  background-color: red;
+border-radius: 0.5rem;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  position: relative;
+  top: 10px;
+ left: 78rem;
+ font-weight: 600;
+ font-size: 20px;
+ }
+ .link_dashboard:hover{
+  background:transparent;
+  color: red;
+ }
+
+
+
+
+
+
+
+/* watches css */
+/* watches css */
+/* watches css */
+/* watches css */
+/* watches css */
+
+.watches_image{
+  height: 300px;
+  width: 300px;
+}
+
+.wimage_one,.wimage_two{
+  margin-bottom: 35px;
+  border: 2px solid grey;
+  padding: 10px 20px;
+
+}
+
+.wimage_one:hover{
+  transform: scale(1.1);
+}
+.wimage_two:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+.watches_owner{
+
+  background-color: white;
+  padding: 0 10px;
+
+}
+
+.watches_header{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+ 
+}
+.watches_container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background: transparent;
+gap: 2rem;
+}
+.image_one,.image_two{
+  margin-bottom: 35px;
+  border: 2px solid grey;
+  padding: 10px 20px;
+
+}
+
+.image_one:hover{
+  transform: scale(1.1);
+}
+.image_two:hover{
+  transform: scale(1.1);
+}
+h5{
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.watches_cart{
+padding: 5px 12px;
+border-radius: 0.5rem;
+background-color: blue;
+color: white;
+font-weight: 600;
+text-align: center;
+position: relative;
+left: 60px;
+
+}
+.watches_buy{
+  padding: 5px 12px;
+  border-radius: 0.5rem;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  left: 120px;
+}
+
+ .link_dashboard{
+  color: white;
+  background-color: red;
+border-radius: 0.5rem;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  position: relative;
+  top: 10px;
+ left: 78rem;
+ font-weight: 600;
+ font-size: 20px;
+ }
+ .link_dashboard:hover{
+  background:transparent;
+  color: red;
+ }
+
+.login_all{
+  position: relative;
+  top: 30px;
+  color: white;
+  background-color: red;
+border-radius: 0.5rem;
+  border: 1px solid grey;
+  padding: 5px 10px;
+ font-weight: 600;
+ font-size: 20px;
+
+ }
+ .login_all:hover{
+  background:transparent;
+  color: red;
+ }
+ .next{
+  position: relative;
+  top: 30px;
+  left: 1050px;
+  color: white;
+  background-color: red;
+border-radius: 0.5rem;
+  border: 1px solid grey;
+  padding: 5px 10px;
+ font-weight: 600;
+ font-size: 20px;
+ }
+
+ .next:hover{
+  background:transparent;
+  color: red;
+ }
+ .previous{
+  position: relative;
+  top: 30px;
+  left: 1000px;
+  color: white;
+  background-color: red;
+border-radius: 0.5rem;
+  border: 1px solid grey;
+  padding: 5px 10px;
+ font-weight: 600;
+ font-size: 20px;
+ }
+
+ .previous:hover{
+  background:transparent;
+  color: red;
+ }
+
+
+
+ 
